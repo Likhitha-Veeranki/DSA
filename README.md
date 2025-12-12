@@ -19,3 +19,10 @@ Day 2 : (Java-Recap-2)
     - this and super keywords
     - Inner classes
     - Date, user Input, Modifiers etc...
+Day 3 : (Arrays Concept)
+    - types of declaration of arrays
+    - updating and accessing arrays
+    - traversing arrays
+    - Multi Dimensional arrays
+    - Two pointer methods of Decreasing Time Complexity
+    - Sliding Window method for decreasing Time Complexity
