@@ -1,5 +1,5 @@
 # DSA
-Day 1 : (Java-Recap-1)
+Java-Recap-1 :
     - Basics of Java Syntax
     - Data types and Variables
     - Conditional Statements
@@ -7,7 +7,7 @@ Day 1 : (Java-Recap-1)
     - Control Flow Statements
     - Basic Arrays and Strings
     - Methods and Function flow
-Day 2 : (Java-Recap-2)
+Java-Recap-2 :
     - Java classes and Objects
     - Class Attributes, Methods and Constructors
     - Encapsulation
@@ -19,10 +19,11 @@ Day 2 : (Java-Recap-2)
     - this and super keywords
     - Inner classes
     - Date, user Input, Modifiers etc...
-Day 3 : (Arrays Concept)
+Arrays Concept :
     - types of declaration of arrays
     - updating and accessing arrays
     - traversing arrays
     - Multi Dimensional arrays
     - Two pointer methods of Decreasing Time Complexity
     - Sliding Window method for decreasing Time Complexity
+    - Array methods 
