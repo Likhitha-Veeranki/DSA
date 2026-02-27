@@ -1,0 +1,88 @@
+life of recursion include four stages :
+     - Call stack
+     -Stack Building
+     -Stack Unwind
+     -Final output
+
+example program: 
+     static void fun(int n) {
+        if (n == 0) return;
+        
+        System.out.print(n + " ");
+        fun(n - 1);
+        System.out.print(n + " ");
+    }
+
+
+
+# Call Stack:
+  fun(3)
+    ↓
+  fun(2)
+    ↓
+  fun(1)
+    ↓
+  fun(0)  ← base case (returns immediately)
+
+
+this results in :
+    fun(3)
+    fun(2)
+    fun(1)
+    fun(0)
+
+
+
+# Stack Build :
+    fun(3)
+    Prints: 3
+    Calls fun(2)
+
+    fun(2)
+    Prints: 2
+    Calls fun(1)
+
+    fun(1)
+    Prints: 1
+    Calls fun(0)
+
+    fun(0)
+    Base case → returns immediately
+    
+
+results in :
+       3 2 1
+
+# Stack Unwind :
+   
+   🔄 Returning from fun(1)
+     After fun(0) returns:
+     It executes: System.out.print(n)
+     So prints: 1
+
+   🔄 Returning from fun(2)
+   Prints: 2
+
+   🔄 Returning from fun(3)
+   Prints: 3
+
+
+Results in :
+      1 2 3
+
+
+
+# Final Output :
+      Stack Build output + Stack unwind output 
+
+
+
+
+Short Revision :
+
+| Phase        | What Happens                    | Output |
+| ------------ | ------------------------------- | ------ |
+| Stack Build  | Code before recursive call runs | 3 2 1  |
+| Base Case    | Stops recursion                 | —      |
+| Stack Unwind | Code after recursive call runs  | 1 2 3  |
+
