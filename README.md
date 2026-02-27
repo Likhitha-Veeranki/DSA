@@ -30,8 +30,14 @@ Arrays Concept :
     - Sliding Window method for decreasing Time Complexity
     - Array methods 
     
-String Concet :
+String Concept :
     - Strings(Creation, Methods, Traversal)
     - String Builder (Creation, Methods(Append, Insrt, Delete, Reverse, Length, Character Access))
     - String Buffer
     - Comparision of String, String Builder and String Buffer
+
+Recursion Concept :
+    - Basic Structure of Recursion Function
+    - Types of Recursions (Linear, Tree, Tail)
+    - Recursion Patterns(Functional, Parametrised, Backtracking)
+    - Life of Recursion Execution
